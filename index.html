@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Image Viewer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="image-container">
+      <img src="image1.jpg" alt="image1">
+      <img src="image2.jpg" alt="image2" class="hidden">
+      <img src="image3.jpg" alt="image3" class="hidden">
+      <div class="overlay">
+        <p id="image-description">Image 1 description</p>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="pause-button"><i class="fa fa-pause"></i></button>
+      <button id="run-button" style="display: none"><i class="fa fa-play"></i></button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
